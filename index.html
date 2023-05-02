@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Tarefas | Organizações</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minhas Tarefas de forma organizada e bonita ✔</h1>
+  </header>
+  <main>
+    <div id="myDIV" class="header">
+        <h2 class="text">Minha lista de tarefas:</h2>
+        <input type="text" id="myInput" placeholder="Digite aqui uma nova tarefa" onkeydown="if (event.keyCode == 13) { newElement(); }">
+        <span onclick="newElement()" class="addBtn">Adicionar a lista</span>
+      </div>
+      
+      <ul id="myUL">
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p>Feito por Yanzin, Kristhyan e o site que o professor "IGOR" passou 👍</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
